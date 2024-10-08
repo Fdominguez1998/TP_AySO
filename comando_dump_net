@@ -1,0 +1,4 @@
+tcpdump
+
+Para realizar un dump traffic, usa:
+sudo tcpdump -i <interfaz>
