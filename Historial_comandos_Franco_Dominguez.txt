@@ -1,0 +1,72 @@
+ls -l
+cd repogit/
+ls -l
+ll
+ls -l
+ls -l /home/vagrant/.ssh/
+pwd
+ls -l ../.ssh/
+pwd
+ssh-keygen --help
+ssh-keygen -t ed25519
+ls -l ../.ssh/
+cat ../.ssh/id_ed25519.pub 
+git clone git@github.com:Fdominguez1998/TP_AySO.git
+ll
+cd TP_AySO/
+ls -la
+echo "hola mundo"
+echo "hola mundo" > unarchivo
+ls -l
+cat unarchivo 
+git status
+git add .
+git status
+git commit -m "add: primer commit"
+git status
+git push
+git log
+pwd
+ls -l
+cd repogit/tp
+ls -l
+pwd
+ls - l
+ls -l
+cd TP_AySO/
+ls -l
+pwd
+cat unarchivo 
+pwd
+cd repogit/TP_AySO/
+man echo
+echo -e "tcpdump\n\nPara realizar un dump de tráfico, usa:\nsudo tcpdump -i <interfaz>"
+echo "tcpdump\n\nPara realizar un dump de tráfico, usa:\nsudo tcpdump -i <interfaz>"
+echo -e "tcpdump\n\nPara realizar un dump de tráfico, usa:\nsudo tcpdump -i <interfaz>" > comando_dump_net
+cat comando_dump_net 
+echo -e "tcpdump\n\nPara realizar un dump traffic, usa:\nsudo tcpdump -i <interfaz>" > comando_dump_net
+cat comando_dump_net 
+git add .
+git commit -m "ADD: Comando para Capturar y analizar el tráfico de red"
+git status
+git push
+history
+man history 
+ls .l
+ls .la
+ls -la
+cat README.md 
+cat << FIN >> README.md 
+Alumno : Franco Dominguez
+Division : 314
+Turno : Noche
+FIN
+
+cat README.md 
+git add .
+git status 
+git commit -m "feat : Actualizacion README.md con los datos del alumno"
+git push
+cd
+ls -l
+history -a
